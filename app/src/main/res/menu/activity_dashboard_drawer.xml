@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/subxvgmenu_1"
+        android:title="Services">
+        <menu>
+
+            <item
+                android:id="@+id/nav_mobile"
+                android:icon="@drawable/mobile"
+                android:title="Mobile" />
+            <item
+                android:id="@+id/nav_datacard"
+                android:icon="@drawable/datacard"
+                android:title="DataCard" />
+            <item
+                android:id="@+id/nav_dth"
+                android:icon="@drawable/dth"
+                android:title="DTH" />
+            <item
+                android:id="@+id/nav_postpaid"
+                android:icon="@drawable/postpaid"
+                android:title="Postpaid" />
+            <item
+                android:id="@+id/nav_bbps"
+                android:icon="@drawable/bbps"
+                android:title="BBPS" />
+
+
+        </menu>
+    </item>
+
+
+    <item
+        android:id="@+id/submenu_1"
+        android:title="Profile and settings">
+        <menu>
+
+            <item
+                android:icon="@drawable/nav_profile"
+                android:title="Profile" />
+            <item
+                android:icon="@drawable/nav_change_password"
+                android:title="Change password" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/nav_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+
+</menu>

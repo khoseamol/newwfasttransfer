@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:layout_marginTop="@dimen/margin_5dp"
+    android:layout_marginBottom="@dimen/margin_5dp"
+    android:layout_marginLeft="@dimen/margin10dp"
+    android:layout_marginRight="@dimen/margin10dp"
+    android:padding="@dimen/margin_10dp"
+    app:cardCornerRadius="@dimen/margin_5dp">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtShortName"
+            android:layout_width="64dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_corner"
+            android:gravity="center"
+            android:text="TM"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+            android:textSize="@dimen/size_20dp" />
+        <TextView
+            android:id="@+id/txtStatus"
+            android:gravity="right|end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtShortName"
+            android:text="Success"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="@color/green"
+            android:textSize="16sp" />
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="@dimen/margin_5dp"
+            android:layout_toRightOf="@+id/txtShortName"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/txPadForOrder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_margin="@dimen/size_2dp"
+                android:text="Paid for Order sdgdfgdfgdfgdfgdfg"
+                android:textSize="@dimen/text_size_12sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/txtDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/txPadForOrder"
+                android:text="March 18 2016 09 Pm"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textSize="@dimen/text_size_12sp" />
+
+            <TextView
+                android:id="@+id/txtTransId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/txtDate"
+                android:layout_marginLeft="@dimen/size_2dp"
+                android:text="Txn Id #15678901"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+
+                android:textSize="@dimen/text_size_12sp" />
+
+            <TextView
+                android:id="@+id/txtFrom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/txtDate"
+                android:layout_margin="@dimen/size_2dp"
+                android:layout_toRightOf="@+id/txtTransId"
+                android:gravity="right"
+                android:text="From : Multipayworld"
+
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textSize="@dimen/text_size_12sp" />
+
+            <TextView
+                android:id="@+id/txtOrderId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/txtTransId"
+                android:layout_margin="@dimen/size_2dp"
+                android:text="Multipayworld #12345678901"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textSize="@dimen/text_size_12sp" />
+
+            <TextView
+                android:id="@+id/txtAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/txtOrderId"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/txtOrderId"
+                android:gravity="right"
+                android:text="- Rs 100"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="@color/red"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+        </RelativeLayout>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

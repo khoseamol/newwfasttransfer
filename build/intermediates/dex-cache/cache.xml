@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/webplat2/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.1.1/5cd91fd014f5b72292f959748c20a2cefefae77d/eventbus-3.1.1.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5cd91fd014f5b72292f959748c20a2cefefae77d">
+        <dex dex="/home/webplat2/Android_projects/fasttransfer/app/build/intermediates/transforms/preDex/release/14.jar" />
+    </item>
+
+</items>

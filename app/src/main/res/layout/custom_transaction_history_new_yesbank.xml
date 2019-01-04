@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:padding="5dp">
+
+  <TextView
+
+    android:id="@+id/txtOrderDetails"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_marginBottom="3dp"
+    android:padding="1dp"
+    android:text="148348"
+    android:textColor="@color/colorPrimary"
+    android:textSize="15sp"
+    android:textStyle="bold" />
+
+  <TextView
+    android:id="@+id/txtAmount"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_marginRight="@dimen/dp_size_10"
+    android:text="100000"
+    android:textSize="18sp" />
+
+  <TextView
+    android:id="@+id/TxtBankRef"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/txtOrderDetails"
+    android:text=""
+    android:textColor="@color/green"
+    android:textSize="16sp" />
+
+  <RelativeLayout
+    android:id="@+id/transLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/TxtBankRef">
+
+    <TextView
+      android:id="@+id/txtDate"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"
+      android:layout_marginTop="2dp"
+      android:layout_toEndOf="@+id/imageOperator"
+      android:layout_toRightOf="@+id/imageOperator"
+
+      android:text="dfgdf" />
+
+
+    <TextView
+      android:id="@+id/txtRefundAvailable"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentRight="true"
+      android:layout_centerVertical="true"
+      android:background="@color/colorPrimary"
+      android:padding="3dp"
+      android:text="Refund"
+      android:textColor="@color/white"
+      android:textSize="16sp"
+      android:visibility="invisible" />
+  </RelativeLayout>
+
+  <RelativeLayout
+    android:id="@+id/amountLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/transLayout"
+    android:layout_marginTop="3dp">
+
+
+    <TextView
+      android:id="@+id/txtAcNo"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:gravity="center"
+      android:text="cvzxCxzcxzcb"
+      android:textStyle="bold"
+      android:visibility="visible" />
+
+    <TextView
+      android:id="@+id/TxtIFSC"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentRight="true"
+      android:text="INDS00000307" />
+
+
+  </RelativeLayout>
+
+  <RelativeLayout
+    android:id="@+id/amoundsftLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/amountLayout"
+    android:layout_marginTop="3dp">
+
+
+    <TextView
+      android:id="@+id/TxtBankName"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:gravity="center"
+      android:text="ICICI BANK LIMITED"
+      android:textStyle="bold"
+      android:visibility="visible" />
+
+    <TextView
+      android:id="@+id/txtStatus"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentRight="true"
+      android:text="Refund" />
+
+
+  </RelativeLayout>
+
+  <RelativeLayout
+    android:id="@+id/refundLay"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/amoundsftLayout">
+
+    <TextView
+      android:id="@+id/TXtBeneName"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_centerVertical="true"
+      android:layout_marginTop="2dp"
+      android:text="dfdsfdffds"
+      android:visibility="visible" />
+
+
+  </RelativeLayout>
+
+  <TextView
+    android:id="@+id/txtRemarks"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/refundLay"
+    android:layout_marginTop="2dp"
+    android:text="dfdsfdffds"
+    android:visibility="visible" />
+
+
+</RelativeLayout>

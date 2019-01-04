@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.webplat.amoldesigning.Activities.Dashboard">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/frameLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.github.florent37.arclayout.ArcLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_130dp"
+                android:elevation="@dimen/elev_20dp"
+                app:arc_cropDirection="cropOutside"
+                app:arc_height="40dp">
+
+                <LinearLayout
+                    android:id="@+id/l1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/pinklight"
+                    android:orientation="vertical"
+                    android:scaleType="centerCrop">
+
+                    <TextView
+                        android:id="@+id/TxtUserName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="8888888888"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/txt_20sp" />
+
+                    <TextView
+                        android:id="@+id/TxtLastSeen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/margin_5dp"
+                        android:text="Webplat Technology "
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/txt_18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/TxtBalance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Amount 25,000"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/txt_18sp" />
+
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="90dp"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/img1"
+                        android:layout_width="@dimen/height_40dp"
+                        android:layout_height="@dimen/height_40dp"
+                        android:layout_marginBottom="@dimen/margin_10dp"
+                        android:layout_marginRight="@dimen/margin_20dp"
+                        android:src="@drawable/ic_autorenew_black_24dp"
+                        android:visibility="visible"/>
+
+                    <ImageView
+                        android:id="@+id/imgReport"
+                        android:layout_width="@dimen/height_40dp"
+                        android:layout_height="@dimen/height_40dp"
+                        android:layout_marginBottom="@dimen/margin_10dp"
+                        android:layout_marginRight="@dimen/margin_20dp"
+                        android:layout_toRightOf="@id/img1"
+                        android:src="@drawable/dashhistory" />
+
+                    <ImageView
+                        android:id="@+id/img_payment_req"
+                        android:layout_width="@dimen/height_40dp"
+                        android:layout_height="@dimen/height_40dp"
+                        android:layout_marginBottom="@dimen/margin_10dp"
+                        android:layout_toRightOf="@+id/imgReport"
+                        android:src="@mipmap/pisco" />
+                </RelativeLayout>
+            </com.github.florent37.arclayout.ArcLayout>
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/txtRechargeandBillPayments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/frameLayout1"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:layout_marginTop="@dimen/margin_5dp"
+            android:text="Recharge"
+            android:textColor="@color/colorPrimary" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/CVrechargeandBillPayment"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_80dp"
+            android:layout_below="@+id/txtRechargeandBillPayments"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:layout_marginRight="@dimen/margin_10dp"
+            android:layout_marginTop="@dimen/margin_5dp">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/RVtransactionList1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_10dp"></android.support.v7.widget.RecyclerView>
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:id="@+id/txttravelsandBooking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/CVrechargeandBillPayment"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:layout_marginTop="@dimen/margin_5dp"
+            android:text="Bill payment and Transfer"
+            android:textColor="@color/colorPrimary" />
+
+
+            <LinearLayout
+                android:id="@+id/CVTravelsandBooking"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_80dp"
+                android:layout_below="@+id/txttravelsandBooking"
+                android:layout_marginTop="@dimen/margin_5dp"
+
+                android:weightSum="2">
+                <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/height_80dp"
+                    android:layout_below="@+id/txttravelsandBooking"
+                    android:layout_marginLeft="@dimen/margin_10dp"
+                    android:layout_marginRight="@dimen/margin_10dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="@dimen/margin_5dp"
+                    android:padding="10dp">
+                <ImageView
+                    android:id="@+id/bbps"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/logo_bbps"
+                    android:layout_weight="1"
+                    android:layout_marginRight="@dimen/margin_10dp"
+                    /></android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/height_80dp"
+                    android:layout_below="@+id/txttravelsandBooking"
+                    android:layout_marginLeft="@dimen/margin_10dp"
+                    android:layout_marginRight="@dimen/margin_10dp"
+                    android:layout_marginTop="@dimen/margin_5dp"
+                    android:padding="10dp"
+                    android:layout_weight="1"
+                    >
+                <ImageView
+                    android:id="@+id/moneytransfer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/moneytransfer"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp"
+                    />
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+
+
+        <TextView
+            android:id="@+id/txtSpecialDeasl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/CVTravelsandBooking"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:layout_marginTop="@dimen/margin_5dp"
+            android:text="Special Deal Banner"
+            android:textColor="@color/colorPrimary" />
+
+
+        <LinearLayout
+            android:id="@+id/bannerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtSpecialDeasl"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:layout_marginRight="@dimen/margin_10dp"
+            android:layout_weight="4"
+            android:orientation="vertical">
+
+            <cn.trinea.android.view.autoscrollviewpager.AutoScrollViewPager
+                android:id="@+id/view_pager"
+                android:layout_width="match_parent"
+                android:layout_height="150dp" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/txtOthers"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_80dp"
+            android:layout_below="@id/bannerLayout"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:layout_marginTop="@dimen/margin_5dp"
+            android:text="Other services"
+            android:textColor="@color/colorPrimary"
+            android:visibility="gone"/>
+
+
+    </RelativeLayout>
+</ScrollView>

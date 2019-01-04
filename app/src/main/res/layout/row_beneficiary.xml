@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="50dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/imageViewVerifiedNotVerified"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_alignParentRight="true"
+                android:src="@mipmap/icon_non_verified"
+                android:gravity="center"
+                android:visibility="gone"
+                android:padding="5dp" />
+            <TextView
+                android:id="@+id/txt"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Name :"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/txt"
+                android:text="sadsad"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt"
+
+                android:layout_marginTop="5dp"
+                android:text="Ac No :"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtAcountNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtName"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+
+                android:layout_toRightOf="@+id/txt1"
+                android:text="111111111111"
+
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt1"
+
+                android:layout_marginTop="5dp"
+                android:text="Bank Name:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtBankName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtAcountNumber"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+
+                android:layout_toRightOf="@+id/txt2"
+                android:text="111111111111"
+
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_alignBottom="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_15dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+
+        <TextView
+            android:id="@+id/txtTransfer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/margin_5dp"
+            android:layout_weight="1"
+            android:background="@drawable/text_view_border"
+            android:gravity="center"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:text=" Transfer"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="normal"
+            android:textSize="14sp"
+            />
+
+        <TextView
+            android:id="@+id/txtValidate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/txtTransfer"
+            android:layout_marginRight="@dimen/margin_5dp"
+            android:layout_weight="1"
+            android:background="@drawable/text_view_border"            android:gravity="center"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:text=" Validate"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/txtDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/txtValidate"
+            android:layout_weight="1"
+            android:background="@drawable/text_view_border"            android:gravity="center"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:text=" Delete"
+            android:textColor="@color/colorPrimary"
+
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="TRANSTYPE">
+        <item>REMITTED</item>
+        <item>REJECTION</item>
+        <item>REFUND</item>
+    </string-array>
+    <string-array name="TRANSTYPECODE">
+        <item>3</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="TRANSMODE">
+        <item>IMPS(MMID)</item>
+        <item>IMPS(IFSC)</item>
+        <item>NEFT</item>
+        <item>ALL</item>
+    </string-array>
+    <string-array name="TRANSMODECODE">
+        <item>1</item>
+        <item>2</item>
+        <item>8</item>
+        <item>0</item>
+    </string-array>
+    <!--//Payment request-->
+    <string-array name="banks_payment_request">
+        <item>Axis Bank</item>
+        <item>State Bank Of India</item>
+        <item>ICICI</item>
+        <item>HDFC</item>
+        <item>Bank of Maharashtra</item>
+    </string-array>
+    <string-array name="banks_payment_request_code">
+        <item>AB</item>
+        <item>SB</item>
+        <item>IC</item>
+        <item>HD</item>
+        <item>BM</item>
+    </string-array>
+    <string-array name="banks_payment_request_payment_type">
+        <item>Cash</item>
+        <item>Cheque/DD</item>
+        <item>Online E-Transfer</item>
+        <item>NEFT/RTGS</item>
+    </string-array>
+    <string-array name="banks_payment_request_Payment_type_code">
+        <item>CS</item>
+        <item>CQ</item>
+        <item>RT</item>
+        <item>NT</item>
+    </string-array>
+
+    <string-array name="title">
+        <item>Mr</item>
+        <item>Mrs</item>
+        <item>Ms</item>
+        <item>Miss</item>
+    </string-array>
+    <string-array name="dthx">
+        <item>TATA SKY NORMAL SD</item>
+        <item>TATA SKY HD</item>
+        <item>VIDEOCON DTH SD</item>
+        <item>VIDEOCON DTH HD</item>
+        <item>AIRTEL TV SD</item>
+        <item>AIRTEL TV HD</item>
+    </string-array>
+    <string-array name="dthxPrice">
+        <item>2000</item>
+        <item>2000</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>2000</item>
+        <item>2000</item>
+    </string-array>
+    <string-array name="language">
+        <item>English</item>
+        <item>Hindi</item>
+        <item>Bengali</item>
+        <item>Bhojpuri</item>
+        <item>Marathi</item>
+        <item>Gujrati</item>
+        <item>Kannada</item>
+        <item>Tamil</item>
+        <item>Telagu</item>
+        <item>malayalam</item>
+    </string-array>
+    <string-array name="idproofarray">
+        <item>Voter Card</item>
+        <item>Pan Card</item>
+        <item>Aadhar card</item>
+        <item>Rashan Card</item>
+        <item>Electricity Bill</item>
+        <item>Driving Licence</item>
+        <item>Passport Number</item>
+    </string-array>
+
+    //add user data
+    <string-array name="ZBP">
+        <item>MD</item>
+        <item>AD</item>
+        <item>RETAILER</item>
+
+    </string-array>
+    <string-array name="MD">
+        <item>AD</item>
+        <item>RETAILER</item>
+
+    </string-array>
+    <string-array name="AD">
+        <item>RETAILER</item>
+    </string-array>
+
+    <string-array name="mPosFunction">
+        <item>Get Receipt</item>
+        <item>Void Payment</item>
+    </string-array>
+</resources>

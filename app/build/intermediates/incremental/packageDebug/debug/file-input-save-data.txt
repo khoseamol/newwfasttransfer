@@ -1,0 +1,15 @@
+#Internal package file, do not edit.
+#Thu Nov 15 15:54:24 IST 2018
+1.base=/home/webplat2/Android_projects/fasttransfer/app/build/intermediates/transforms/dexMerger/debug/0
+2.path=Roboto-Regular.ttf
+0.baseType=DIRECTORY
+2.base=/home/webplat2/Android_projects/fasttransfer/app/build/intermediates/assets/debug
+2.set=ASSET
+1.baseType=DIRECTORY
+count=3
+1.set=DEX
+0.path=fonts/Roboto-Medium.ttf
+0.set=ASSET
+0.base=/home/webplat2/Android_projects/fasttransfer/app/build/intermediates/assets/debug
+2.baseType=DIRECTORY
+1.path=classes.dex

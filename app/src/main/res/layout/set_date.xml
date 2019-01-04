@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <com.example.webplat.amoldesigning.Utils.TypefacedTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set date"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="@dimen/dp_size_10"
+        android:textColor="@color/orange" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:weightSum="3">
+
+        <com.example.webplat.amoldesigning.Utils.TypefacedTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="From Date"
+android:layout_weight="1"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+    </LinearLayout>
+    <DatePicker
+        android:id="@+id/fromDate"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:datePickerMode="spinner"
+        android:calendarViewShown="false"></DatePicker>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:weightSum="3">
+
+        <com.example.webplat.amoldesigning.Utils.TypefacedTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="To Date"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <DatePicker
+        android:id="@+id/toDate"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:datePickerMode="spinner"
+        android:calendarViewShown="false"></DatePicker>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.example.webplat.amoldesigning.Utils.TypefacedTextView
+            android:layout_width="50dp"
+            android:id="@+id/txtOk"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Ok"
+
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/text_view_border"
+            android:layout_toLeftOf="@+id/txtcancel"
+            android:textColor="@color/orange"/>
+        <com.example.webplat.amoldesigning.Utils.TypefacedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Cancel"
+            android:background="@drawable/text_view_border"
+            android:layout_marginBottom="10dp"
+                android:layout_marginRight="20dp"
+            android:textAlignment="center"
+            android:id="@+id/txtcancel"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/orange"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">Fast Transfer</string>
+    <string name="title_activity_dashboard">Fast Transfer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_dashboard1">dashboard1</string>
+
+    <string name="slide_1_title">Mobile Recharge</string>
+    <string name="slide_1_desc">The easiest way to recharge your mobile!</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="content_desc">Image</string>
+
+
+    <string name="lblConfirmPassword">Confirm Password</string>
+    <string name="lblNewPassword">New Password</string>
+    <string name="lblCurrentPassword">Current Password</string>
+    <string name="lblChangePassword">Current Password</string>
+    <string name="benMobile">Beneficiary Mobile number</string>
+    <string name="addBen">Add Beneficiary</string>
+    <string name="benNickName">Bank Name</string>
+    <string name="getBankDetails">Get Bank Details</string>
+    <string name="accountNumber">Account Number</string>
+    <string name="submitRequest">Submit</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="register">Register</string>
+    <string name="selectdate">Select Date</string>
+
+    <string name="ChequeDDDate">Cheque/DD Date</string>
+    <string name="DepositBank">Deposit Bank</string>
+    <string name="Ref">Reference Id</string>
+    <string name="lblRemarks">Remarks</string>
+
+    <string name="slide_2_title">Bill Payment</string>
+    <string name="slide_2_desc">Bill Payment for your family and friends!</string>
+
+    <string name="slide_3_title">One Wallet For all</string>
+    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
+    <string name="rechargePlanNotes">
+  <small>We provide support for most recharge plans, however, we request you to verify with your
+         operator end once before proceeding
+ </small>.
+   </string>
+    <string name="slide_4_title">Money Transfer</string>
+    <string name="slide_4_desc">One app for all bank transfer</string>
+    <string name="username">username</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="do_not_have">Do not have Account ? </string>
+    <string name="sign_up_here">SignUp here</string>
+    <string name="proceed_to_login">Proceed to sign in</string>
+    <string name="EnterNumber">Enter Number</string>
+    <string name="CONSUMERID">CONSUMER ID</string>
+    <string name="ProcessingCycle">Processing Value</string>
+    <string name="BillingUnit">Billing Unit</string>
+    <string name="GetBillingDetails">GET BILL DETAILS</string>
+    <string name="BillingDetails">Billing Details</string>
+    <string name="dueDate">Due Date</string>
+    <string name="AMOUNT">Amount</string>
+    <string name="procedToPay">Proceed to Pay</string>
+    <string name="shareit">Share it</string>
+    <string name="about_us">About us</string>
+    <string name="remember">Remember</string>
+    <string name="Rs">\u20B9</string>
+    <string name="action_loadMoney">Load Money</string>
+
+    <string name="title_activity_distributer_dashboard">Distributer</string>
+    <string name="title_activity_main">BIZTAP</string>
+    <string name="ownerNameAdduser">Owner Name</string>
+    <string name="lblUsername">Username</string>
+    <string name="mobile_no">Mobile number</string>
+    <string name="farmName">Farm Name</string>
+    <string name="PanNumber">Pan Number</string>
+    <string name="address">Address</string>
+    <string name="amount">Amount</string>
+    <string name="Remarks">Remarks</string>
+    <string name="transfer">Transfer</string>
+    <string name="wallet_transfer_subtext">Please check with your Wallet transfer on valid denomination with respect to RTM holds no responsibility for wrong wallet transfer transaction.</string>
+    <string name="PaymentMode">Payment Mode</string>
+    <string name="PaymentDate">Payment Date</string>
+    <string name="ChequeDDNumber">Cheque/DD number</string>
+    <string name="OwnerName">Owner Name</string>
+    <string name="fromDate">From Date</string>
+    <string name="toDate">To Date</string>
+    <string name="contentDescription">close</string>
+    <string name="moneyTransferValidateString">Are you sure want to validate beneficiary ? this will charge you additional cost.</string>
+    <string name="moneyTransferDeleteString">Are you sure want to validate beneficiary ? this will charge you additional cost.</string>
+    <string name="benefiaryName">Beneficiary Name</string>
+    <string name="bankAcountNumber">Bank Account Number</string>
+    <string name="confirmAccount">Confirm Account</string>
+    <string name="IfscCode">IFSC code</string>
+    <string name="error_message">an error occured</string>
+    <string name="acountHolderName">Account holder name</string>
+    <string name="bankName">Bank name</string>
+    <string name="pincode">Pincode</string>
+    <string name="dob">DOB</string>
+
+</resources>

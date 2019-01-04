@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar_layout" />
+
+
+        <ScrollView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/toolbar"
+            android:fillViewport="true"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tool_bar_about"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="0px"
+                    android:layout_height="0px"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true" />
+
+
+                <EditText
+                    android:id="@+id/edBeneficiaryName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/textfield_selector"
+                    android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+                    android:hint="@string/benefiaryName"
+                    android:inputType="textFilter" />
+
+                <EditText
+                    android:id="@+id/edBeneficiaryNickName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="11dp"
+                    android:background="@drawable/textfield_selector"
+                    android:hint="@string/benNickName" />
+
+
+                <EditText
+                    android:id="@+id/edBenMobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="11dp"
+                    android:background="@drawable/textfield_selector"
+                    android:hint="@string/benMobile"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/edBankAccountNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="11dp"
+                    android:background="@drawable/textfield_selector"
+                    android:hint="@string/bankAcountNumber"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/edConfirmAccountNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="11dp"
+                    android:background="@drawable/textfield_selector"
+                    android:hint="@string/confirmAccount"
+                    android:inputType="number" />
+
+                <Spinner
+                    android:id="@+id/spinnerAccountTYpe"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="11dp"
+                    android:background="@drawable/textfield_selector"
+                    android:visibility="gone" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroupIFSCSelector"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radioButtonIFSC"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:buttonTint="@color/green"
+                        android:checked="true"
+                        android:text="IFSC" />
+
+                    <RadioButton
+                      android:visibility="gone"
+                        android:id="@+id/radioSearchIFSC"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:buttonTint="@color/green"
+                        android:text="Search IFSC" />
+
+                    <RadioButton
+                        android:id="@+id/radioButtonMasterIFSC"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:buttonTint="@color/green"
+                        android:text="Master IFSC" />
+                </RadioGroup>
+
+                <LinearLayout
+                    android:id="@+id/bankLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/autoCompleteBankName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="11dp"
+                        android:background="@drawable/textfield_selector"
+                        android:hint="Enter Bank Name"
+                        android:singleLine="true" />
+
+                    <AutoCompleteTextView
+                        android:id="@+id/autoCompleteBankBranch"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="11dp"
+                        android:background="@drawable/textfield_selector"
+                        android:singleLine="true"
+                        android:hint="Enter Bank Branch"
+                        android:minHeight="40dp" />
+
+                </LinearLayout>
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteMasterIFSC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="11dp"
+                    android:background="@drawable/textfield_selector"
+                    android:hint="Enter Bank Name"
+                    android:visibility="gone" />
+
+                <EditText
+                    android:id="@+id/edIfscCode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="11dp"
+                    android:background="@drawable/textfield_selector"
+                    android:digits="01234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                    android:hint="@string/IfscCode"
+                    android:inputType="textCapCharacters" />
+
+
+                <Button
+                    android:id="@+id/btnAddBeneficary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="11dp"
+                    android:background="@drawable/button_shape"
+                    android:text="@string/addBen"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+</ScrollView>

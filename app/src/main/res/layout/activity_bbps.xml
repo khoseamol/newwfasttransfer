@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+    <include
+        android:id="@+id/toolbar1"
+        layout="@layout/toolbar_layout" />
+    <ScrollView
+        android:layout_below="@+id/toolbar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/logo_bbps" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="end"
+                    android:text="Category"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+
+
+
+            <Spinner
+                android:id="@+id/spinnerCategary"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+
+                style="@style/spinnerItemStyle"
+                android:background="@drawable/text_view_border"
+                android:minHeight="40dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Operator"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+
+            <EditText
+                android:id="@+id/spinnerService"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Select Operator"
+                android:textStyle="bold"
+                android:textColor="@color/grey"
+                android:cursorVisible="false"
+                android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+                android:background="@drawable/text_view_border"
+                android:minHeight="40dp" />
+
+
+
+            <LinearLayout
+                android:id="@+id/l1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+                <TextView
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:id="@+id/txt1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Subscriber Id / Consumer Number" />
+
+                <EditText
+                    android:textColor="@color/grey"
+                    android:id="@+id/edit1"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+
+                    android:background="@drawable/text_view_border"
+                    android:hint="Subscriber Id / Consumer Number"
+                    />
+
+                <TextView
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:id="@+id/txt2"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Mobile No " />
+
+                <EditText
+                    android:textStyle="bold"
+                    android:textColor="@color/grey"
+                    android:id="@+id/edit2"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/text_view_border"
+                    android:hint="10 digit number"
+                    android:visibility="gone"
+                    android:maxLength="10" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:id="@+id/txt3"
+                    android:visibility="gone"
+                    android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cycle" />
+
+                <EditText
+                    android:id="@+id/edit3"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/edAmount"
+                    android:layout_marginTop="10dp"
+                    android:inputType="number"
+                    android:textColor="@color/grey"
+                    android:textStyle="bold"
+                    android:visibility="gone"
+                    android:background="@drawable/text_view_border"
+                    android:hint="Enter Cycle" />
+
+                <!--<TextView-->
+                <!--android:id="@+id/txt4"-->
+                <!--android:visibility="gone"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="@dimen/margin_10dp"-->
+                <!--android:text="Billing Unit" />-->
+
+                <!--<EditText-->
+                <!--android:visibility="gone"-->
+                <!--android:id="@+id/editTextBillingUnit"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:layout_below="@+id/editTextCycleNumber"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:inputType="number"-->
+                <!--android:hint="Enter Billing Unit" />-->
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/relianceEnergyHiddenLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cycle"
+                    android:textStyle="bold"
+                    android:textSize="18sp"/>
+
+                <EditText
+                    android:id="@+id/editTextRelianceEnergyCycleNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:inputType="number"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:background="@drawable/text_view_border"
+                    android:hint="Enter Cycle" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/mahanagarGasHiddenLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Gas Account Number" />
+
+                <EditText
+                    android:id="@+id/editTextGasAccountNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:inputType="number"
+                    android:background="@drawable/text_view_border"
+                    android:hint="Gas Account Number" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/torrentPowerHiddenLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:visibility="gone"
+
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="City" />
+
+                <EditText
+                    android:id="@+id/edittextCity"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/text_view_border"
+                    android:hint="Enter City" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/postpaidHiddenLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:visibility="gone"
+
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Account Number" />
+
+                <EditText
+                    android:id="@+id/EdittextAcNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/size_10dp"
+                    android:hint="Account Number"
+                    android:background="@drawable/text_view_border"
+                    android:inputType="number"
+                    android:textColorHint="@android:color/darker_gray" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/size_10dp"
+                    android:text="Account Type " />
+
+                <Spinner
+                    android:id="@+id/spinnerAccountType"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/size_10dp"
+                    android:background="@drawable/text_view_border"
+                    android:minHeight="40dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/amountHiddenLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Amount" />
+
+                <EditText
+                    android:id="@+id/EdittextAmount"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="@dimen/size_10dp"
+                    android:hint="Amount (1-9999)"
+                    android:background="@drawable/text_view_border"
+                    android:inputType="number"
+                    android:maxLength="5" />
+
+            </LinearLayout>
+            <EditText
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edittxtmobile"
+                android:inputType="number"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:hint="Customer mobile number*"
+                android:layout_marginTop="10dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:id="@+id/l4">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Payment Mode"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    />
+
+                <Spinner
+                    android:id="@+id/spinnerPayMode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/text_view_border"
+                    android:layout_marginTop="10dp"
+                    android:minHeight="40dp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnRecharge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="@dimen/margin_30dp"
+                android:background="@color/colorPrimary"
+                android:text="Recharge"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

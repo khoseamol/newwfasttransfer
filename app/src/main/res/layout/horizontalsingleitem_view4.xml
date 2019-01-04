@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+
+    android:layout_height="120dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:layout_marginTop="@dimen/margin_5dp"
+    android:layout_marginLeft="@dimen/margin_10dp"
+    android:layout_marginRight="@dimen/margin_10dp"
+    android:layout_marginBottom="@dimen/margin_5dp"
+    app:cardBackgroundColor="@color/white"
+    android:padding="@dimen/margin_10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/image"
+        android:src="@mipmap/mobile"
+        android:layout_width="@dimen/height_50dp"
+        android:layout_height="@dimen/height_50dp" />
+    <TextView
+        android:layout_marginTop="@dimen/size3dp"
+        android:id="@+id/txtDate"
+        android:layout_width="@dimen/width_70dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="25/09/1991"
+        android:layout_gravity="center"
+        android:textColor="@color/colorPrimary" />
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

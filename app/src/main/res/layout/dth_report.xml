@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/toolbar"></android.support.v7.widget.Toolbar>
+    <RelativeLayout
+        android:id="@+id/txnSearchLayout"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/fromDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/txnSearchById"
+            android:drawableRight="@mipmap/ic_calender"
+            android:hint="@string/fromDate"
+            android:paddingLeft="10dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/text_view_border"
+            android:visibility="gone"
+            android:paddingRight="10dp"
+            />
+        <TextView
+            android:id="@+id/txnSearchById"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"
+            android:visibility="gone"
+            android:background="@drawable/text_view_border"/>
+    </RelativeLayout>
+    <EditText
+        android:id="@+id/toDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txnSearchLayout"
+        android:drawableRight="@mipmap/ic_calender"
+        android:hint="@string/toDate"
+        android:paddingLeft="10dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/text_view_border"
+        android:focusableInTouchMode="false"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <ProgressBar
+            android:id="@+id/registrationProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/empty_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="No Records Founds"
+            android:textSize="20sp"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/my_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toDate"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="10dp"
+        android:scrollbars="vertical" />
+
+
+</RelativeLayout>

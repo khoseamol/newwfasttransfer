@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/layout_bg"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+
+    <TextView
+        android:id="@+id/txtOpeningBal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint=""
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+
+    <TextView
+
+        android:id="@+id/txtdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:hint=""
+        android:textSize="18sp" />
+
+    <RelativeLayout
+        android:id="@+id/one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtOpeningBal"
+        android:layout_marginTop="2dp">
+        <TextView
+            android:id="@+id/txtCredits"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint=""
+            android:linksClickable="true"
+            android:textColor="@color/green" />
+        <TextView
+            android:id="@+id/txtDebits"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint=""
+            android:layout_alignParentRight="true"
+
+            android:textColor="@color/red" />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/tree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/one">
+
+        <TextView
+            android:id="@+id/txtSurcharge"
+            android:linksClickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="" />
+
+        <TextView
+            android:id="@+id/txtDiscount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:hint=""
+            android:textColor="@color/green" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tree"
+        android:layout_marginTop="2dp">
+
+        <TextView
+            android:id="@+id/txtRefund"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="" />
+
+        <TextView
+            android:id="@+id/txtUsage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:hint="" />
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/imageOperator"
+        android:layout_width="55dp"
+        android:layout_height="60dp"
+        android:background="@drawable/borderwhitecircle"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/logo" />
+
+    <TextView
+        android:id="@+id/txtClosingBal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/two"
+        android:layout_marginTop="3dp"
+        android:hint=""
+        android:textColor="@color/colorPrimary"/>
+</RelativeLayout>

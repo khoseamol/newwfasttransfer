@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <EditText
+        android:id="@+id/editAcountNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/darker_gray"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:hint="@string/accountNumber"
+        android:paddingBottom="8dp"
+        android:paddingLeft="2dp"
+
+        android:paddingTop="8dp" />
+
+    <EditText
+        android:id="@+id/editAcHolderName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/darker_gray"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:hint="@string/acountHolderName"
+        android:paddingBottom="8dp"
+        android:paddingLeft="2dp"
+        android:paddingTop="8dp" />
+
+    <EditText
+        android:id="@+id/editIFSCCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/darker_gray"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:hint="@string/IfscCode"
+        android:paddingBottom="8dp"
+        android:paddingLeft="2dp"
+        android:paddingTop="8dp" />
+
+    <EditText
+        android:id="@+id/editBankName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/darker_gray"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:hint="@string/bankName"
+        android:paddingBottom="8dp"
+        android:paddingLeft="2dp"
+        android:paddingTop="8dp"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/editAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:maxLength="5"
+        android:background="@drawable/textfield_selector"
+        android:hint="@string/amount"
+        android:paddingLeft="4dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/textfield_selector">
+
+        <Spinner
+            android:id="@+id/spinnerTransferType"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:minHeight="25dp" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:tint="@color/colorPrimary"
+            android:layout_gravity="right|center_vertical"
+            android:src="@drawable/drop" />
+    </FrameLayout>
+    <TextView
+        android:id="@+id/TxtNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/red"
+        android:text="Note : Transfer Amount should be \n10 - 20000 Rs."
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/TxtNotice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:text="Disclaimer : For NEFT Transaction insure you have correct IFSC Code"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btnTransfer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_shape"
+        android:text="@string/transfer"
+        android:textColor="@color/white" />
+
+</LinearLayout>

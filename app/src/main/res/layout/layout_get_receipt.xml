@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="#50000000">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginStart="14dp"
+                    android:text="Bill Receipt"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/logo_bbps" />
+            </RelativeLayout>
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:id="@+id/BBPOUName"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="BBPOU Name"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/BBPOUName"
+                    android:layout_alignParentRight="true"
+                    android:text="Bill Desk"
+                    android:textAlignment="textEnd"
+                    android:gravity="end" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/tvbestoffer"
+                android:background="#88000000" />
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/BillingPeriod"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="Billing Period" />
+
+                <TextView
+                    android:id="@+id/BillingPeriod1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="21dp"
+                    android:layout_marginStart="21dp"
+                    android:layout_toEndOf="@+id/BillingPeriod"
+                    android:layout_toRightOf="@+id/BillingPeriod"
+                    android:text="NA"
+                    android:layout_alignParentRight="true"
+                    android:textAlignment="textEnd"
+                    android:gravity="end"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/tvbestoffer"
+                android:background="#88000000" />
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/CName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="Customer Name" />
+
+                <TextView
+                    android:id="@+id/CName1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="21dp"
+                    android:layout_marginStart="21dp"
+                    android:layout_toEndOf="@+id/CName"
+                    android:layout_toRightOf="@+id/CName"
+                    android:text=""
+                    android:layout_alignParentRight="true"
+                    android:textAlignment="textEnd"
+                    android:gravity="end"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/tvbestoffer"
+                android:background="#88000000" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Customermobilenumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="Customer mobile number" />
+
+                <TextView
+                    android:id="@+id/Customermobilenumber1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="21dp"
+                    android:layout_marginStart="21dp"
+                    android:layout_toEndOf="@+id/Customermobilenumber"
+                    android:layout_toRightOf="@+id/Customermobilenumber"
+                    android:text=""
+                    android:layout_alignParentRight="true"
+                    android:textAlignment="textEnd"
+                    android:gravity="end"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/tvbestoffer"
+                android:background="#88000000" />
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/CustomerAcccountNo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="Customer Acccount No" />
+
+                <TextView
+                    android:id="@+id/CustomerAcccountNo1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="21dp"
+                    android:layout_marginStart="21dp"
+                    android:layout_toEndOf="@+id/CustomerAcccountNo"
+                    android:layout_toRightOf="@+id/CustomerAcccountNo"
+                    android:text=""
+                    android:layout_alignParentRight="true"
+                    android:textAlignment="textEnd"
+                    android:gravity="end"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/tvbestoffer"
+                android:background="#88000000" />
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/transactionReferenceId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="Transaction Reference Id" />
+
+                <TextView
+                    android:id="@+id/transactionReferenceId1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="21dp"
+                    android:layout_marginStart="21dp"
+                    android:layout_toEndOf="@+id/transactionReferenceId"
+                    android:layout_toRightOf="@+id/transactionReferenceId"
+                    android:text=""
+                    android:layout_alignParentRight="true"
+                    android:textAlignment="textEnd"
+                    android:gravity="end"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/tvbestoffer"
+                android:background="#88000000" />
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/paymentchannel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="Payment Channel" />
+
+                <TextView
+                    android:id="@+id/paymentchannel1"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="21dp"
+                    android:layout_marginStart="21dp"
+                    android:layout_toEndOf="@+id/paymentchannel"
+                    android:layout_toRightOf="@+id/paymentchannel"
+                    android:text="Agent"
+                    android:layout_alignParentRight="true"
+                    android:textAlignment="textEnd"
+                    android:gravity="end"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/tvbestoffer"
+                android:background="#88000000" />
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/paymentmode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="Payment Mode" />
+
+                <TextView
+                    android:id="@+id/paymentmode1"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="21dp"
+                    android:layout_marginStart="21dp"
+                    android:layout_toEndOf="@+id/paymentmode"
+                    android:layout_toRightOf="@+id/paymentmode"
+                    android:text="Cash"
+                    android:layout_alignParentRight="true"
+                    android:textAlignment="textEnd"
+                    android:gravity="end"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/tvbestoffer"
+                android:background="#88000000" />
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/billdate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="Bill Date" />
+
+                <TextView
+                    android:id="@+id/billdate1"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="21dp"
+                    android:layout_marginStart="21dp"
+                    android:layout_toEndOf="@+id/billdate"
+                    android:layout_toRightOf="@+id/billdate"
+                    android:text=""
+                    android:layout_alignParentRight="true"
+                    android:textAlignment="textEnd"
+                    android:gravity="end"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/tvbestoffer"
+                android:background="#88000000" />
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/billAmount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="Bill Amount" />
+
+                <TextView
+                    android:id="@+id/billAmount1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="21dp"
+                    android:layout_marginStart="21dp"
+                    android:layout_toEndOf="@+id/billAmount"
+                    android:layout_toRightOf="@+id/billAmount"
+                    android:text=""
+                    android:layout_alignParentRight="true"
+                    android:textAlignment="textEnd"
+                    android:gravity="end"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/tvbestoffer"
+                android:background="#88000000" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Customerconviniencefree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="Customer Convenience fee" />
+
+                <TextView
+                    android:id="@+id/Customerconviniencefree1"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="21dp"
+                    android:layout_marginStart="21dp"
+                    android:layout_toEndOf="@+id/Customerconviniencefree"
+                    android:layout_toRightOf="@+id/Customerconviniencefree"
+                    android:text=""
+                    android:layout_alignParentRight="true"
+                    android:textAlignment="textEnd"
+                    android:gravity="end"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/tvbestoffer"
+                android:background="#88000000" />
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/TotalAmount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="Total Amount" />
+
+                <TextView
+                    android:id="@+id/TotalAmount1"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="21dp"
+                    android:layout_marginStart="21dp"
+                    android:layout_toEndOf="@+id/TotalAmount"
+                    android:layout_toRightOf="@+id/TotalAmount"
+                    android:text=""
+                    android:layout_alignParentRight="true"
+                    android:textAlignment="textEnd"
+                    android:gravity="end"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/tvbestoffer"
+                android:background="#88000000" />
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/TransactionStatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="Transaction Status" />
+
+                <TextView
+                    android:id="@+id/TransactionStatus1"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="21dp"
+                    android:layout_marginStart="21dp"
+                    android:layout_toEndOf="@+id/TransactionStatus"
+                    android:layout_toRightOf="@+id/TransactionStatus"
+                    android:text=""
+                    android:layout_alignParentRight="true"
+                    android:textAlignment="textEnd"
+                    android:gravity="end"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/tvbestoffer"
+                android:background="#88000000" />
+
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/transactiondateandtime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="Transaction dateand Time" />
+
+                <TextView
+                    android:id="@+id/transactiondateandtime1"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="21dp"
+                    android:layout_marginStart="21dp"
+                    android:layout_toEndOf="@+id/transactiondateandtime"
+                    android:layout_toRightOf="@+id/transactiondateandtime"
+                    android:text=""
+                    android:layout_alignParentRight="true"
+                    android:textAlignment="textEnd"
+                    android:gravity="end"/>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/tvbestoffer"
+                android:background="#88000000" />
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/BillerName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="Biller Name" />
+
+                <TextView
+                    android:id="@+id/BillerName1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="21dp"
+                    android:layout_marginStart="21dp"
+                    android:layout_toEndOf="@+id/BillerName"
+                    android:layout_toRightOf="@+id/BillerName"
+                    android:text=""
+                    android:layout_alignParentRight="true"
+                    android:textAlignment="textEnd"
+                    android:gravity="end"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/tvbestoffer"
+                android:background="#88000000" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/BillerId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="Biller Id" />
+
+                <TextView
+                    android:id="@+id/BillerId1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="21dp"
+                    android:layout_marginStart="21dp"
+                    android:layout_toEndOf="@+id/BillerId"
+                    android:layout_toRightOf="@+id/BillerId"
+                    android:text=""
+                    android:layout_alignParentRight="true"
+                    android:textAlignment="textEnd"
+                    android:gravity="end"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/tvbestoffer"
+                android:background="#88000000" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/PaymentId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="Payment Id" />
+
+                <TextView
+                    android:id="@+id/PaymentId1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="21dp"
+                    android:layout_marginStart="21dp"
+                    android:layout_toEndOf="@+id/PaymentId"
+                    android:layout_toRightOf="@+id/PaymentId"
+                    android:text=""
+                    android:layout_alignParentRight="true"
+                    android:textAlignment="textEnd"
+                    android:gravity="end"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/tvbestoffer"
+                android:background="#88000000" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/ApprovalRefNo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="Appproval RefNo" />
+
+                <TextView
+                    android:id="@+id/ApprovalRefNo1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="21dp"
+                    android:layout_marginStart="21dp"
+                    android:layout_toEndOf="@+id/ApprovalRefNo"
+                    android:layout_toRightOf="@+id/ApprovalRefNo"
+                    android:text="NA"
+                    android:layout_alignParentRight="true"
+                    android:textAlignment="textEnd"
+                    android:gravity="end" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/tvbestoffer"
+                android:background="#88000000" />
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/BBPSID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="BBPSID " />
+
+                <TextView
+                    android:id="@+id/BBPSID1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="21dp"
+                    android:layout_marginStart="21dp"
+                    android:layout_toEndOf="@+id/BBPSID"
+                    android:layout_toRightOf="@+id/BBPSID"
+                    android:text=""
+                    android:layout_alignParentRight="true"
+                    android:textAlignment="textEnd"
+                    android:gravity="end"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/tvbestoffer"
+                android:background="#88000000" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/BiilerCategory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="Biller Category" />
+
+                <TextView
+                    android:id="@+id/BiilerCategory1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="21dp"
+                    android:layout_marginStart="21dp"
+                    android:layout_toEndOf="@+id/BiilerCategory"
+                    android:layout_toRightOf="@+id/BiilerCategory"
+                    android:layout_alignParentRight="true"
+                    android:textAlignment="textEnd"
+                    android:text=""
+                    android:gravity="end" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10dp"
+                android:layout_toLeftOf="@+id/tvbestoffer"
+                android:background="#88000000" />
+        </LinearLayout>
+
+
+
+
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/textTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:hint="Enter name of file to save the receipt"/>
+        <Button
+            android:id="@+id/b"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Save"
+            android:visibility="gone"
+            android:layout_gravity="center"></Button>
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

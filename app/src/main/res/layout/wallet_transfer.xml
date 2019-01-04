@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/topLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/editTextUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/username"
+        />
+
+        <EditText
+            android:id="@+id/editOwnerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextUserName"
+            android:layout_marginTop="10dp"
+            android:hint="@string/OwnerName"
+             />
+
+        <EditText
+            android:id="@+id/edAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editOwnerName"
+            android:layout_marginTop="10dp"
+            android:hint="@string/amount"
+            android:inputType="number"
+            android:maxLength="5"
+             />
+
+        <EditText
+            android:id="@+id/edRemarks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edAmount"
+            android:layout_marginTop="10dp"
+            android:hint="@string/Remarks"
+           />
+
+        <Button
+            android:id="@+id/btnTransfer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edRemarks"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/transfer"
+            android:textColor="@android:color/white" />
+
+    </RelativeLayout>
+
+</ScrollView>

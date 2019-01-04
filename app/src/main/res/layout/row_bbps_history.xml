@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF"
+    android:padding="10dp">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="15dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/text_view_border">
+            <TextView
+                android:id="@+id/txtOperator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:text="MSCDCL"
+
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                />
+            <TextView
+                android:id="@+id/txtNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:text="7741081323"
+                android:layout_below="@+id/txtOperator"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                />
+
+            <TextView
+                android:id="@+id/txtStatusText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:text="Closing balance"
+                android:layout_below="@+id/txtNumber"
+
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:id="@+id/txtStatus"
+                android:text="successfull"
+                android:layout_below="@+id/txtpayrefid"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="5dp"
+                android:textSize="15sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:id="@+id/txtClosingBalance"
+                android:text="100"
+                android:layout_below="@+id/txtStatus"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="5dp"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:id="@+id/txtpayrefid"
+                android:text=" 1900634035"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/holo_green_dark"
+                android:layout_marginLeft="10dp"
+                android:textSize="15sp"/>
+            <LinearLayout
+                android:layout_width="50dp"
+                android:layout_height="25dp"
+                android:layout_below="@+id/txtClosingBalance"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/holo_blue_bright"
+                android:layout_alignParentRight="true"
+                android:id="@+id/linearLayout">
+
+                <TextView
+                    android:id="@+id/txtAmount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Rs.12"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtAmountText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtStatusText"
+                android:layout_marginLeft="5dp"
+                android:text="Amount:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                />
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_below="@+id/linearLayout"
+                android:background="#50000000"
+                />
+            <TextView
+                android:id="@+id/txtViewDetails"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/view"
+                android:layout_height="wrap_content"
+                android:text="View Details"
+                android:textSize="15sp"
+                android:textColor="@android:color/holo_blue_bright"
+                android:drawableLeft="@drawable/ic_arrow_forward_black_24dp"
+                android:layout_marginTop="5dp"/>
+
+            <LinearLayout
+                android:id="@+id/layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtViewDetails"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <RelativeLayout
+                    android:id="@+id/layout1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:visibility="visible"
+                    >
+                    <TextView
+                        android:id="@+id/txtDateTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9673346489"
+                        android:textSize="12sp"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/txtName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pre Balance:"
+                        android:layout_below="@+id/txtDateTime"
+                        android:textSize="12sp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"
+                        />
+
+                    <TextView
+                        android:id="@+id/txtChagres"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txtName"
+                        android:text="Sendr Name:Amol koshe"
+                        android:textSize="12sp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#000000"
+                        />
+                     <TextView
+                        android:id="@+id/txtCustomerMobileNumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txtChagres"
+                        android:text=""
+                        android:textSize="12sp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#000000"
+                        />
+                        <TextView
+                        android:id="@+id/txtMode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txtCustomerMobileNumber"
+                        android:text=""
+                        android:textSize="12sp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#000000"
+                        />
+
+                    <TextView
+                        android:id="@+id/txtReciept"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/txtChagres"
+                        android:layout_alignEnd="@+id/txtPreBalance"
+                        android:layout_alignRight="@+id/txtPreBalance"
+                        android:text="Receipt"
+                        android:layout_marginRight="@dimen/margin_5dp"
+                        android:background="@color/accentblue"
+                        android:textColor="@android:color/black"
+                        android:textSize="15dp" />
+
+
+                    <TextView
+                        android:id="@+id/txtTxNId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:textColor="@android:color/black"
+                        android:layout_marginLeft="5dp"
+                        android:textSize="10dp"
+                        android:layout_marginTop="5dp"
+                        android:text="OptID:813000000" />
+                    <TextView
+                        android:id="@+id/txtPreBalance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/txtTxNId"
+                        android:textColor="@android:color/black"
+                        android:layout_marginLeft="5dp"
+                        android:textSize="10dp"
+                        android:layout_marginTop="5dp"
+                        android:text="120" />
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+</RelativeLayout>

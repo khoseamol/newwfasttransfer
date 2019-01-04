@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.webplat.amoldesigning.Activities.DistributerDashboard"
+ >
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="50dp">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="@color/pinklight"
+            android:layout_below="@id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+            <ImageView
+                android:layout_marginTop="@dimen/padding_5"
+                android:layout_gravity="center"
+                android:background="@drawable/borderwhitecircle"
+                android:src="@mipmap/logo"
+                android:layout_width="@dimen/height_80dp"
+                android:layout_height="@dimen/height_80dp" />
+            <TextView
+                android:id="@+id/txt_username_distributor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="USERNAME"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/txt_18sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/txt_balance_distributor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Balance:"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/txt_18sp"
+                />
+
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/RVDistributerPanel"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/margin_20dp"
+            android:layout_marginRight="@dimen/margin_20dp"
+            android:layout_marginBottom="@dimen/height_40dp"
+            android:layout_marginTop="@dimen/margin_120dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </android.support.v7.widget.RecyclerView>
+
+    </FrameLayout>
+</ScrollView>
+</RelativeLayout>

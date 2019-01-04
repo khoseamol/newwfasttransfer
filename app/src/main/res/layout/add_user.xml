@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/topLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="50dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <com.example.webplat.amoldesigning.Utils.NDSpinner
+                android:id="@+id/spinnerUserType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text_view_border"
+                android:minHeight="40dp" />
+
+
+            <com.example.webplat.amoldesigning.Utils.NDSpinner
+                android:id="@+id/spinnerScheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/text_view_border"
+                android:minHeight="40dp" />
+
+
+            <EditText
+                android:id="@+id/editTextOwnerName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="@string/ownerNameAdduser"
+                android:inputType="text"
+
+                />
+            <!--android:nextFocusDown="@+id/editTextName"-->
+
+
+            <EditText
+                android:id="@+id/editTextName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="@string/lblUsername"
+                android:inputType="textPersonName"
+
+                />
+            <!--android:nextFocusDown="@+id/editTextMobileNumber"-->
+
+
+
+            <EditText
+                android:id="@+id/editTextMobileNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:digits="0123456789"
+                android:hint="@string/mobile_no"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:maxLength="10"
+                />
+
+
+            <EditText
+                android:id="@+id/editTextFarmName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="@string/farmName"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+
+               />
+            <!--android:nextFocusDown="@id/editTextPanNumber"-->
+            <!--android:nextFocusLeft="@id/editTextPanNumber"-->
+
+            <EditText
+                android:id="@+id/editTextPanNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="@string/PanNumber"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+
+                />
+
+            <!--android:nextFocusDown="@id/editTextAddress"-->
+            <!--android:nextFocusLeft="@id/editTextAddress"-->
+
+
+            <EditText
+                android:id="@+id/editTextAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="@string/address"
+                />
+
+            <TextView
+                android:id="@+id/txtSchemeAmount"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/margin_5dp"
+                android:textColor="@color/red"
+
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+    <Button
+        android:id="@+id/btnAddUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"
+        android:text="ADD USER"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+    </LinearLayout>
+</ScrollView>

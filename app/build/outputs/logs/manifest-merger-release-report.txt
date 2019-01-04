@@ -1,0 +1,295 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:2:1-86:12
+INJECTED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:2:1-86:12
+INJECTED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:2:1-86:12
+INJECTED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:2:1-86:12
+MERGED from [com.github.florent37:arclayout:1.0.3] /home/webplat2/.gradle/caches/transforms-1/files-1.1/arclayout-1.0.3.aar/35469374f14aae007315aa27ad35ebdc/AndroidManifest.xml:2:1-12:12
+MERGED from [com.rom4ek:arcnavigationview:1.0.3] /home/webplat2/.gradle/caches/transforms-1/files-1.1/arcnavigationview-1.0.3.aar/7dc1aff670d17444fb79514114afb80d/AndroidManifest.xml:2:1-12:12
+MERGED from [com.wdullaer:materialdatetimepicker:3.5.1] /home/webplat2/.gradle/caches/transforms-1/files-1.1/materialdatetimepicker-3.5.1.aar/f146f49c1d0f791af9fa8287a0f56d0a/AndroidManifest.xml:17:1-30:12
+MERGED from [com.android.support:design:27.0.2] /home/webplat2/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/afcb0067d6fe4dc6137fdcfa7f53abc4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/webplat2/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/132034deb4a29039e833dd4c62790bc1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.0.2] /home/webplat2/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/18edfc31bf956d2284bef5c7bbf5bb03/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.2] /home/webplat2/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/61d2ba1a6b69b2fdc1d6d3f77b3cf980/AndroidManifest.xml:17:1-22:12
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /home/webplat2/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/57aabc3b57d3188fb98a13aa0286fb2b/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.JakeWharton:ViewPagerIndicator:2.4.1] /home/webplat2/.gradle/caches/transforms-1/files-1.1/ViewPagerIndicator-2.4.1.aar/427dd66c5943015d01971fc4979ff054/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v13:27.0.2] /home/webplat2/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/38c04442ef8ebc99136f3e4a27d4abb0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.0.2] /home/webplat2/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/67220a617e8163f494a12a5ab5520569/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] /home/webplat2/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/2068947d8b7396aa2b4e9d9a1866ecfd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/webplat2/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/797b1fce5f9af47973f923f448f3d6fc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/webplat2/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/acbb863865f988eff3764ef7016f5bee/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/webplat2/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/f3115bd1830e9f8e11afdbd8e9b0fac6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/webplat2/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/dec2e9a6c79e9c3ed033066bf4344c48/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.0.2] /home/webplat2/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/937a0225867669971190ff17a8397f37/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/webplat2/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/afdbcacf3450a9078b6c41d2cb004534/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] /home/webplat2/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/eeb2cc99bc100abeed9eb6d6537488e2/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/webplat2/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/f6d6d59bcf7735352f415370ea66d736/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:2:1-86:12
+INJECTED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:2:1-86:12
+INJECTED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:2:1-86:12
+	package
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:3:5-48
+		INJECTED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml
+		INJECTED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:2:1-86:12
+		INJECTED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:2:1-86:12
+		INJECTED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:5:5-72
+	android:name
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:5:22-69
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:6:5-68
+	android:name
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:6:22-65
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:7:5-75
+	android:name
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:7:22-72
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:8:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:9:22-64
+application
+ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:11:5-84:19
+MERGED from [com.wdullaer:materialdatetimepicker:3.5.1] /home/webplat2/.gradle/caches/transforms-1/files-1.1/materialdatetimepicker-3.5.1.aar/f146f49c1d0f791af9fa8287a0f56d0a/AndroidManifest.xml:28:5-20
+MERGED from [com.wdullaer:materialdatetimepicker:3.5.1] /home/webplat2/.gradle/caches/transforms-1/files-1.1/materialdatetimepicker-3.5.1.aar/f146f49c1d0f791af9fa8287a0f56d0a/AndroidManifest.xml:28:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /home/webplat2/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/57aabc3b57d3188fb98a13aa0286fb2b/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /home/webplat2/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/57aabc3b57d3188fb98a13aa0286fb2b/AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:16:9-35
+	android:label
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:14:9-41
+	android:roundIcon
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:15:9-41
+	android:largeHeap
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:17:9-33
+	android:icon
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:13:9-36
+	android:allowBackup
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:18:9-42
+activity#com.example.webplat.amoldesigning.Activities.WelcomeActivity
+ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:21:9-30:20
+	android:label
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:23:13-61
+	android:theme
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:24:13-47
+	android:name
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:22:13-55
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:25:13-29:29
+action#android.intent.action.MAIN
+ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:28:27-74
+activity#com.example.webplat.amoldesigning.Activities.SplashScreen
+ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:32:9-34:20
+	android:name
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:32:19-58
+activity#com.example.webplat.amoldesigning.moneytransfer_DMT.MoneyTransferLoginActivity_IDMT
+ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:35:9-96
+	android:name
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:35:19-84
+activity#com.example.webplat.amoldesigning.Activities.LoginActivity
+ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:36:9-40:20
+	android:theme
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:38:13-47
+	android:name
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:37:13-53
+activity#com.example.webplat.amoldesigning.Activities.Dashboard
+ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:41:9-43:50
+	android:theme
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:43:13-47
+	android:name
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:42:13-49
+activity#com.example.webplat.amoldesigning.Activities.HistoryActivity
+ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:44:9-46:49
+	android:theme
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:46:13-46
+	android:name
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:45:13-55
+activity#com.example.webplat.amoldesigning.Activities.MobileRecharge
+ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:47:9-63
+	android:name
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:47:19-60
+activity#com.example.webplat.amoldesigning.Activities.BBPSActivity
+ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:48:9-61
+	android:name
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:48:19-58
+activity#com.example.webplat.amoldesigning.Activities.DisplayRecipt
+ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:49:9-62
+	android:name
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:49:19-59
+activity#com.example.webplat.amoldesigning.Activities.DisplayListActivity
+ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:50:9-68
+	android:name
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:50:19-65
+activity#com.example.webplat.amoldesigning.Activities.BBPSHistory
+ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:51:9-60
+	android:name
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:51:19-57
+activity#com.example.webplat.amoldesigning.Activities.OperatorActivity
+ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:52:9-65
+	android:name
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:52:19-62
+activity#com.example.webplat.amoldesigning.Activities.DTHRecharge
+ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:53:9-60
+	android:name
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:53:19-57
+activity#com.example.webplat.amoldesigning.Activities.DatacardRecharge
+ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:54:9-65
+	android:name
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:54:19-62
+activity#com.example.webplat.amoldesigning.Activities.Electricity
+ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:55:9-60
+	android:name
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:55:19-57
+activity#com.example.webplat.amoldesigning.Activities.RechargePlansActivity
+ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:56:9-70
+	android:name
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:56:19-67
+activity#com.example.webplat.amoldesigning.Activities.ForgetPassword
+ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:57:9-63
+	android:name
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:57:19-60
+activity#com.example.webplat.amoldesigning.Activities.ChangePasswordActivity
+ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:58:9-71
+	android:name
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:58:19-68
+activity#com.example.webplat.amoldesigning.Activities.ProfileActivity
+ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:59:9-64
+	android:name
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:59:19-61
+activity#com.example.webplat.amoldesigning.Activities.WalletSummaryFragment_Distributor
+ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:60:9-82
+	android:name
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:60:19-79
+activity#com.example.webplat.amoldesigning.Activities.BillingHistory_Distributor
+ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:61:9-75
+	android:name
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:61:19-72
+activity#com.example.webplat.amoldesigning.Activities.CreditReportActivity
+ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:62:9-69
+	android:name
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:62:19-66
+activity#com.example.webplat.amoldesigning.moneytransfer_DMT.DMT2DashBoardActivity
+ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:63:9-86
+	android:name
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:63:19-74
+activity#com.example.webplat.amoldesigning.moneytransfer_DMT.DMT2_HistoryMoney
+ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:64:9-82
+	android:name
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:64:19-70
+activity#com.example.webplat.amoldesigning.moneytransfer_DMT.DMT2_AddBeneficiary
+ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:65:9-84
+	android:name
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:65:19-72
+activity#com.example.webplat.amoldesigning.Activities.DistributerDashboard
+ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:66:9-69:49
+	android:label
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:68:13-73
+	android:theme
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:69:13-47
+	android:name
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:67:13-60
+activity#com.example.webplat.amoldesigning.Activities.MainActivity
+ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:71:9-73:48
+	android:theme
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:73:13-46
+	android:name
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:72:13-52
+activity#com.example.webplat.amoldesigning.Activities.AddUser
+ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:75:9-77:49
+	android:theme
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:77:13-47
+	android:name
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:76:13-47
+activity#com.example.webplat.amoldesigning.moneytransfer_DMT.DMT2_MoneyRegister
+ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:78:9-83
+	android:name
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:78:19-71
+activity#com.example.webplat.amoldesigning.Activities.WalletTransfer
+ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:79:9-81:49
+	android:theme
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:81:13-47
+	android:name
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:80:13-54
+activity#com.example.webplat.amoldesigning.Activities.Payment_Request
+ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:82:9-63
+	android:name
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml:82:19-61
+uses-sdk
+INJECTED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml
+INJECTED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml
+MERGED from [com.github.florent37:arclayout:1.0.3] /home/webplat2/.gradle/caches/transforms-1/files-1.1/arclayout-1.0.3.aar/35469374f14aae007315aa27ad35ebdc/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.florent37:arclayout:1.0.3] /home/webplat2/.gradle/caches/transforms-1/files-1.1/arclayout-1.0.3.aar/35469374f14aae007315aa27ad35ebdc/AndroidManifest.xml:8:5-10:41
+MERGED from [com.rom4ek:arcnavigationview:1.0.3] /home/webplat2/.gradle/caches/transforms-1/files-1.1/arcnavigationview-1.0.3.aar/7dc1aff670d17444fb79514114afb80d/AndroidManifest.xml:8:5-10:41
+MERGED from [com.rom4ek:arcnavigationview:1.0.3] /home/webplat2/.gradle/caches/transforms-1/files-1.1/arcnavigationview-1.0.3.aar/7dc1aff670d17444fb79514114afb80d/AndroidManifest.xml:8:5-10:41
+MERGED from [com.wdullaer:materialdatetimepicker:3.5.1] /home/webplat2/.gradle/caches/transforms-1/files-1.1/materialdatetimepicker-3.5.1.aar/f146f49c1d0f791af9fa8287a0f56d0a/AndroidManifest.xml:22:5-24:41
+MERGED from [com.wdullaer:materialdatetimepicker:3.5.1] /home/webplat2/.gradle/caches/transforms-1/files-1.1/materialdatetimepicker-3.5.1.aar/f146f49c1d0f791af9fa8287a0f56d0a/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:design:27.0.2] /home/webplat2/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/afcb0067d6fe4dc6137fdcfa7f53abc4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.2] /home/webplat2/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/afcb0067d6fe4dc6137fdcfa7f53abc4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/webplat2/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/132034deb4a29039e833dd4c62790bc1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/webplat2/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/132034deb4a29039e833dd4c62790bc1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] /home/webplat2/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/18edfc31bf956d2284bef5c7bbf5bb03/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] /home/webplat2/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/18edfc31bf956d2284bef5c7bbf5bb03/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /home/webplat2/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/61d2ba1a6b69b2fdc1d6d3f77b3cf980/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /home/webplat2/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/61d2ba1a6b69b2fdc1d6d3f77b3cf980/AndroidManifest.xml:20:5-44
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /home/webplat2/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/57aabc3b57d3188fb98a13aa0286fb2b/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /home/webplat2/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/57aabc3b57d3188fb98a13aa0286fb2b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.JakeWharton:ViewPagerIndicator:2.4.1] /home/webplat2/.gradle/caches/transforms-1/files-1.1/ViewPagerIndicator-2.4.1.aar/427dd66c5943015d01971fc4979ff054/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.JakeWharton:ViewPagerIndicator:2.4.1] /home/webplat2/.gradle/caches/transforms-1/files-1.1/ViewPagerIndicator-2.4.1.aar/427dd66c5943015d01971fc4979ff054/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v13:27.0.2] /home/webplat2/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/38c04442ef8ebc99136f3e4a27d4abb0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:27.0.2] /home/webplat2/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/38c04442ef8ebc99136f3e4a27d4abb0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /home/webplat2/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/67220a617e8163f494a12a5ab5520569/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /home/webplat2/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/67220a617e8163f494a12a5ab5520569/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /home/webplat2/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/2068947d8b7396aa2b4e9d9a1866ecfd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /home/webplat2/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/2068947d8b7396aa2b4e9d9a1866ecfd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/webplat2/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/797b1fce5f9af47973f923f448f3d6fc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/webplat2/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/797b1fce5f9af47973f923f448f3d6fc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/webplat2/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/acbb863865f988eff3764ef7016f5bee/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/webplat2/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/acbb863865f988eff3764ef7016f5bee/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/webplat2/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/f3115bd1830e9f8e11afdbd8e9b0fac6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/webplat2/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/f3115bd1830e9f8e11afdbd8e9b0fac6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/webplat2/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/dec2e9a6c79e9c3ed033066bf4344c48/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/webplat2/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/dec2e9a6c79e9c3ed033066bf4344c48/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] /home/webplat2/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/937a0225867669971190ff17a8397f37/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] /home/webplat2/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/937a0225867669971190ff17a8397f37/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/webplat2/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/afdbcacf3450a9078b6c41d2cb004534/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/webplat2/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/afdbcacf3450a9078b6c41d2cb004534/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /home/webplat2/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/eeb2cc99bc100abeed9eb6d6537488e2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /home/webplat2/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/eeb2cc99bc100abeed9eb6d6537488e2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/webplat2/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/f6d6d59bcf7735352f415370ea66d736/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/webplat2/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/f6d6d59bcf7735352f415370ea66d736/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml
+INJECTED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml
+		INJECTED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml
+		ADDED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml
+		INJECTED from /home/webplat2/Android_projects/fasttransfer/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.VIBRATE
+ADDED from [com.wdullaer:materialdatetimepicker:3.5.1] /home/webplat2/.gradle/caches/transforms-1/files-1.1/materialdatetimepicker-3.5.1.aar/f146f49c1d0f791af9fa8287a0f56d0a/AndroidManifest.xml:26:5-66
+	android:name
+		ADDED from [com.wdullaer:materialdatetimepicker:3.5.1] /home/webplat2/.gradle/caches/transforms-1/files-1.1/materialdatetimepicker-3.5.1.aar/f146f49c1d0f791af9fa8287a0f56d0a/AndroidManifest.xml:26:22-63
